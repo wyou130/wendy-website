@@ -5,7 +5,23 @@
         <title>Wendy Website</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Wendy You</h1>
+        <h2>New York, NY</h2>
+        <div id="Home" class="headerTab">
+            <h1>Home</h1>
+            <p>Detail-oriented food enthusiast with a thirst for innovation fueled by interactions and new experiences. A chemistry background and communications experience provide reliable problem solving with attention to individual and community needs. Innately curious and observant, seeks a challenge and an adventure.</p>
+        </div>
+        <div id="Projects" class="headerTab">
+            <h1>Projects</h1>
+            <p>Here's what's cooking:</p>
+        </div>
+        <div id="Contact" class="headerTab">
+            <h1>Contact</h1>
+            <p>Let's keep in touch!</p>
+        </div>
+        <button class="tablink" onclick="openTab('Home', this, 'purple')" id="defaultOpen">Home</button>
+        <button class="tablink" onclick="openTab('Projects', this, 'yellow')">Projects</button>
+        <button class="tablink" onclick="openTab('Contact', this, 'blue')">Contact</button>
         <script src="script.js"></script>
     </body>
 </html>
