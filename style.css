@@ -25,12 +25,29 @@ button.tablink:hover {
 
 div.headerTab {
     color: white;
-    padding: 50px;
+    padding: 70px;
     text-align: center;
 }
 
 div > h1 {
     font-size: 26px;
+}
+
+div#links {
+    font-style: italic;
+    font-size: 14px;
+}
+
+div.contactlink {
+    float: left;
+    text-align: center;
+    width: 33%;
+    text-decoration: none;
+}
+
+div.contactlink a {
+    color: white;
+    font-weight: bold;
 }
 
 div#Home {background-color: orange;}
