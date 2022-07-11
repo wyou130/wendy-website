@@ -1,3 +1,23 @@
 body {
     background: lavenderblush;
 }
+
+button.tablink {
+    background-color: coral;
+    color: white;
+    float: left;
+    border: none;
+    cursor: pointer;
+    padding: 14px;
+    width: 33%;
+}
+
+button.tablink:hover {
+    background-color: gray;
+}
+
+div.headerTab {
+    color: black;
+    padding: 50px;
+    text-align: center;
+}
