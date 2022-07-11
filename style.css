@@ -1,5 +1,12 @@
 body {
     background: lavenderblush;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 button.tablink {
@@ -9,7 +16,7 @@ button.tablink {
     border: none;
     cursor: pointer;
     padding: 14px;
-    width: 33%;
+    width: 33.333%;
 }
 
 button.tablink:hover {
@@ -17,7 +24,15 @@ button.tablink:hover {
 }
 
 div.headerTab {
-    color: black;
+    color: white;
     padding: 50px;
     text-align: center;
 }
+
+div > h1 {
+    font-size: 26px;
+}
+
+div#Home {background-color: orange;}
+div#Projects {background-color: orange;}
+div#Contact {background-color: orange;}
