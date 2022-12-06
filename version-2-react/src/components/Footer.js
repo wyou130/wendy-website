@@ -1,6 +1,12 @@
 function Footer() {
     return (
-        <div>Footer</div>
+        <div>
+            <p>Footer</p>
+            <p>LinkedIn</p>
+            <p>GitHub</p>
+            <p>Email</p>
+        </div>
+
     )
 }
 
