@@ -1,6 +1,11 @@
 function Contact() {
     return (
-        <div>Contact</div>
+        <div>
+            <h2>Contact</h2>
+                <h3>LinkedIn</h3>
+                <h3>Email</h3>
+                {/* Message form here */}
+        </div>
     )
 }
 
