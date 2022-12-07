@@ -1,5 +1,5 @@
 body {
-    background: lavenderblush;
+    background: #f3cfcf;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
@@ -10,8 +10,8 @@ button {
 }
 
 button.tablink {
-    background-color: coral;
-    color: white;
+    background-color: #864879;
+    color: #f8e3e3;
     float: left;
     border: none;
     cursor: pointer;
@@ -20,11 +20,11 @@ button.tablink {
 }
 
 button.tablink:hover {
-    background-color: gray;
+    background-color: #3F3351;
 }
 
 div.headerTab {
-    color: white;
+    color: #f8e3e3;
     padding: 70px;
     text-align: center;
 }
@@ -33,9 +33,18 @@ div > h1 {
     font-size: 26px;
 }
 
+h1, h2 {
+    color: #1F1D36;
+}
+
 div#links {
     font-style: italic;
     font-size: 14px;
+}
+
+div.contactdiv {
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 div.contactlink {
@@ -45,11 +54,13 @@ div.contactlink {
     text-decoration: none;
 }
 
-div.contactlink a {
+/* div.contactlink a {
     color: white;
     font-weight: bold;
-}
+} */
 
-div#Home {background-color: orange;}
-div#Projects {background-color: orange;}
-div#Contact {background-color: orange;}
+div#Home {background-color: #1F1D36;}
+div#Projects {background-color: #1F1D36;}
+div#Contact {
+    background-color: #1F1D36;
+}

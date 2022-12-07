@@ -2,17 +2,25 @@
 <html lang ="en">
     <head>
         <link rel="stylesheet" href="style.css" />
-        <title>Wendy Website</title>
+        <title>Wendy You</title>
     </head>
     <body>
         <h1>Wendy You</h1>
         <h2>New York, NY</h2>
+        <button class="tablink" onclick="openTab('Home', this, '#1F1D36')" id="defaultOpen">Home</button>
+        <button class="tablink" onclick="openTab('Projects', this, '#1F1D36')">Projects</button>
+        <button class="tablink" onclick="openTab('Contact', this, '#1F1D36')">Contact</button>
         <div id="Home" class="headerTab">
-            <h1>Home</h1>
-            <p>Detail-oriented food enthusiast with a thirst for innovation fueled by interactions and new experiences. A chemistry background and communications experience provide reliable problem solving with attention to individual and community needs. Innately curious and observant, seeks a challenge and an adventure.</p>
+            <!-- <h1>Home</h1> -->
+            <p>
+                Detail-oriented software engineer with a thirst for innovation fueled by interactions and new experiences. Experienced in Ruby on Rails and JavaScript based programming with a background in Marketing and Chemistry. 
+            </p>
+            <p>
+                Keen to conquer steep learning curves: always learning, always growing. Possess strong skills in communication and project management that help community-driven companies bring like-minded people together. Innately curious and observant, seeks a challenge and an adventure.
+            </p>
         </div>
         <div id="Projects" class="headerTab">
-            <h1>Projects</h1>
+            <!-- <h1>Projects</h1> -->
             <p>Here's what's cooking:
                 <div id="links">
                 Check back soon!
@@ -20,22 +28,26 @@
             </p>
         </div>
         <div id="Contact" class="headerTab">
-            <h1>Contact</h1>
-            <p>Let's keep in touch!
+            <!-- <h1>Contact</h1> -->
+            <p>Let's keep in touch!</p>
+            <div class="contactdiv">
                 <div class="contactlink"> 
-                    <a href = https://www.linkedin.com/in/wendy-you >LinkedIn</a>
+                    <a href = https://www.linkedin.com/in/wendy-you >
+                        <img src='./assets/linkedin.png' alt="Wendy's LinkedIn"/>
+                    </a>
                 </div>
                 <div class="contactlink">
-                    <a href = https://github.com/wyou130 >GitHub</a>
+                    <a href = https://github.com/wyou130 >
+                        <img src='./assets/github.jpg' alt="Wendy's GitHub"/>
+                    </a>
                 </div>
                 <div class="contactlink">
-                    <a href="mailto:wyou130@gmail.com" >Email</a>
+                    <a href="mailto:wyou130@gmail.com" >
+                        <img src='./assets/gmail.png' alt="Wendy's Email"/>
+                    </a>
                 </div>
-            </p>
+            </div>
         </div>
-        <button class="tablink" onclick="openTab('Home', this, 'orange')" id="defaultOpen">Home</button>
-        <button class="tablink" onclick="openTab('Projects', this, 'orange')">Projects</button>
-        <button class="tablink" onclick="openTab('Contact', this, 'orange')">Contact</button>
         <script src="script.js"></script>
     </body>
 </html>
